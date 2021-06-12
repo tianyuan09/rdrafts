@@ -1,5 +1,7 @@
 # How to Create a Customized Template for R Markdown
 
+This is a r package named `rdrafts` created for customizing rmarkdown templates. 
+
 ## Steps by Step Guide
 
 1. Create an R package (`new Project -> R Package`), then create new folders, `inst/rmarkdown/templates/`, following the same structure as described in  [17.1 Template structure](https://bookdown.org/yihui/rmarkdown/template-structure.html)
