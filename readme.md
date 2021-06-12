@@ -24,7 +24,7 @@ description: A template for Blog Post
 
 Examples of package and template structure: 
 
-* draft by [duckmayr](https://github.com/duckmayr/draft)
-* rmarkdown by [yihui](https://github.com/rstudio/rmarkdown/tree/master/inst/rmarkdown/templates/html_vignette)
+* `draft` package created by [duckmayr](https://github.com/duckmayr/draft)
+* `rmarkdown` package created by [yihui](https://github.com/rstudio/rmarkdown/tree/master/inst/rmarkdown/templates/html_vignette)
 
 
