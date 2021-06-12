@@ -1,0 +1,47 @@
+---
+title: "Create More, Consume Less"
+author: "Yuan Tian"
+date: |
+  | `r gsub("^0", "", format(Sys.time(), "%d %B, %Y"))`
+colorlinks: true
+output: 
+  html_document:
+    code_folding: hide
+    df_print: paged
+    toc: yes
+    fig_caption: true
+  pdf_document:
+    toc: yes
+bibliography: C:\\Users\\tiany\\Google Drive\\Paperpile\\Blogs.bib
+csl: C:\\Users\\tiany\\Google Drive\\Paperpile\\IEEE.csl
+always_allow_html: yes
+link-citations: true
+params:
+  filename_p1: Appraisal Form v3.3 (Responses) FINAL v3.xlsx
+---
+
+# Heading 1
+
+## Heading 2
+
+> I am a quote
+
+I am citing [@Hoad2010-ux]
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(reshape2)
+library(knitr)
+library(stringr)
+library(tidyr)
+```
+
+
+
+```{r message=FALSE, echo=FALSE}
+```
+
+# References
